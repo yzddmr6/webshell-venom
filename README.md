@@ -1,7 +1,7 @@
 # php_xor_bypass
 利用随机异或无限免杀d盾
 
-Python版请移步 (thx c0ny1)
+Python版请移步 (thx @c0ny1)
 
 https://github.com/c0ny1/WorkScripts/blob/master/php-xor-bypass/php_xor_bypass.py
 
