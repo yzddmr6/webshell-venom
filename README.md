@@ -5,6 +5,10 @@ Python版请移步 (thx @c0ny1)
 
 https://github.com/c0ny1/WorkScripts/blob/master/php-xor-bypass/php_xor_bypass.py
 
+蚁剑插件版请移步:
+
+https://github.com/yzddmr6/as_php_xor_bypass
+
 
 
 ## 2.0 更新内容
