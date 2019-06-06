@@ -13,5 +13,5 @@
 
 蚁剑插件版请移步:
 
-https://github.com/yzddmr6/as_php_xor_bypass
+https://github.com/yzddmr6/as_webshell_venom
 
